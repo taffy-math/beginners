@@ -79,30 +79,30 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>关于集合论的基础知识，比如笛卡尔积，关系，以及映射等，可以自行Google，我们在此不提。</p>
 <h2>实数的性质（公理化定义）</h2>
 <h3>有序集</h3>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>若 $S$ 是一个集合，如果它上面具有一种关系，记作 &lt;，满足：<br>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>若 $S$ 是一个集合，如果它上面具有一种关系，记作 $\lt$，满足：<br>
 (i) 任意 $x\in S,\ y\in S$，以下三种情况有且只有一种成立：<br>
-$$x\textless y,\ x=y,\ y\textless x$$<br>
-(ii) 对于 $x,y,z\in S$，如果 $x\textless y,\ y\textless z$，则 $x\textless z$.<br>
-那么我们叫关系 &lt; 为 $S$ 上的一个序关系，称 $S$ 为一个有序集。</p>
+$$x\lt y,\ x=y,\ y\lt x$$<br>
+(ii) 对于 $x,y,z\in S$，如果 $x\lt y,\ y\lt z$，则 $x\lt z$.<br>
+那么我们叫关系 $\lt$ 为 $S$ 上的一个序关系，称 $S$ 为一个有序集。</p>
 </div>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>如果 $S$ 是一个有序集， $E$ 是 $S$ 的一个非空子集，假设 $b\in S$，如果对于任意 $a\in E$，都有 $a\leq b$，则称 $b$ 是 $E$ 的一个上界。称 $E$ 在 $S$ 中有上界。</p>
 </div>
 <p>类似地可以定义下界。</p>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>如果 $S$ 是一个有序集， $E$ 是 $S$ 的一个非空有上界的子集，如果 $b\in S$ 是 $E$ 的一个上界，且满足：任意 $x\in S$，若 $x\textless b$， 则 $x$ 不是 $E$ 的上界。 那么就说 $b$ 是 $E$ 的上确界。记作 $b=\sup E$ 。</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>如果 $S$ 是一个有序集， $E$ 是 $S$ 的一个非空有上界的子集，如果 $b\in S$ 是 $E$ 的一个上界，且满足：任意 $x\in S$，若 $x\lt b$， 则 $x$ 不是 $E$ 的上界。 那么就说 $b$ 是 $E$ 的上确界。记作 $b=\sup E$ 。</p>
 </div>
 <p>那么是不是对于任意的有序集，对于任意的非空有上界的子集，都存在上确界呢？</p>
-<p>我们注意到有理数集 $Q$ 和它上面的序关系 $&amp;lt;_Q$ 构成了一个有序集，我们考虑这样一个集合<br>
-$$E=\lbrace x\in Q\mid x\textgreater 0\ {且}\ x^2\textless2\rbrace$$<br>
+<p>我们注意到有理数集 $Q$ 和它上面的序关系 $\lt_Q$ 构成了一个有序集，我们考虑这样一个集合<br>
+$$E=\lbrace x\in Q\mid x\gt 0\ {且}\ x^2\lt2\rbrace$$<br>
 这个集合是非空有上界的。</p>
 <p>如果它存在一个上确界 $b=\sup E$ ，它应该要满足 $b^2=2$ 。我们可以导出矛盾，不存在这样的 $b\in Q$ 。</p>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>我们说明 $b^2&amp;lt;2$ 和 $b^2&amp;gt;2$ 都不可能是上确界。<br>
-若 $b^2&amp;lt;2$，我们总能构造出一个比 $b$ 更大的 $a\in Q$ 是在 $E$ 中的，这就和 $b$ 是上界矛盾了。<br>
-因为我们希望 $a&amp;gt;b$，不妨设 $a=b+\epsilon,\ \epsilon &amp;gt;0 \in Q$，通过控制 $\epsilon$ 的范围（我们当然希望它越来越小），让 $a$ 不超出 $E$ 的范围，我们先假设 $\epsilon\textless b$，则有<br>
-$$a^2=(b+\epsilon)^2=b^2+2\epsilon b +\epsilon^2\textless b^2+3\epsilon b$$<br>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>我们说明 $b^2\lt 2$ 和 $b^2\gt 2$ 都不可能是上确界。<br>
+若 $b^2lt2$，我们总能构造出一个比 $b$ 更大的 $a\in Q$ 是在 $E$ 中的，这就和 $b$ 是上界矛盾了。<br>
+因为我们希望 $agtb$，不妨设 $a=b+\epsilon,\ \epsilon \gt 0 \in Q$，通过控制 $\epsilon$ 的范围（我们当然希望它越来越小），让 $a$ 不超出 $E$ 的范围，我们先假设 $\epsilon\lt b$，则有<br>
+$$a^2=(b+\epsilon)^2=b^2+2\epsilon b +\epsilon^2\lt b^2+3\epsilon b$$<br>
 只需要<br>
-$$b^2+3\epsilon b\textless 2$$<br>
-取满足 $\epsilon\textless \frac{2-b^2}{3b}$ 的 $\epsilon\in Q$ 即可。<br>
-类似地我们可以说明 $b^2\textgreater 2$ 的情况不是上确界。所以如果 $Q$ 中存在 $E$ 的上确界 $b$，那么它满足 $b^2=2$ 。<br>
+$$b^2+3\epsilon b\lt 2$$<br>
+取满足 $\epsilon\lt \frac{2-b^2}{3b}$ 的 $\epsilon\in Q$ 即可。<br>
+类似地我们可以说明 $b^2\gt 2$ 的情况不是上确界。所以如果 $Q$ 中存在 $E$ 的上确界 $b$，那么它满足 $b^2=2$ 。<br>
 我们设 $b=p/q$ 是既约分数（$(p,\ q)=1$ ），则我们有<br>
 $$p^2=2q^2$$<br>
 故有 $2\mid p$，故 $4\mid p^2$，故 $q^2=p^2/2$ 满足 $2\mid q$ ，矛盾。</p>
@@ -141,60 +141,59 @@ $$</p>
 <p>也就是消去律。</p>
 <p>其它的结论可以看《数学分析原理》，有详细的推导，在这里我们不列举了。</p>
 <h3>有序域</h3>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>设 $F$ 是一个有序集，同时是一个域，&lt; 是它上面的序关系， $+,\cdot$ 是它的加法和乘法，如果它们满足：<br>
-(i) 对于任意 $x\in F$ 与 $y\textless z$，都有 $x+y\textless x+z$ ;<br>
-(ii) 对于任意 $x\textgreater 0,\ y\textgreater 0$，都有 $xy\textgreater 0$ .<br>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>设 $F$ 是一个有序集，同时是一个域，$\lt$ 是它上面的序关系， $+,\cdot$ 是它的加法和乘法，如果它们满足：<br>
+(i) 对于任意 $x\in F$ 与 $y\lt z$，都有 $x+y\lt x+z$ ;<br>
+(ii) 对于任意 $x\gt 0,\ y\gt 0$，都有 $xy\gt 0$ .<br>
 那么就称 $F$ 是一个有序域。</p>
 </div>
 <p>我们也可以得到很多推论。</p>
-<p>比如对于 $a,b,c,d\in F$，如果 $a\textgreater b,\ c\textgreater d$，那么有 $a+c\textgreater b+c\textgreater b+d$ 。</p>
-<p>再比如对于 $x\textgreater 0$，若 $(-x)\geq0$，那么 $0=x+(-x)\geq x+0\textgreater 0+0=0$，产生矛盾，所以 $(-x)\textless 0$ 。</p>
+<p>比如对于 $a,b,c,d\in F$，如果 $a\gt b,\ c\gt d$，那么有 $a+c\gt b+c\gt b+d$ 。</p>
+<p>再比如对于 $x\gt 0$，若 $(-x)\geq0$，那么 $0=x+(-x)\geq x+0\gt 0+0=0$，产生矛盾，所以 $(-x)\lt 0$ 。</p>
 <h3>实数</h3>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>实数集 $R$ 是一个有序域，且具有最小上界性，有理数集 $Q$ 是它的子集。</p>
 </div>
 <p>存在性（$R$ 的定义）可以由戴德金分割给出，具体步骤见《数学分析原理》。</p>
 <p>我们可能会在后面说明实数的唯一性。在这之前我们要说明实数的一些重要性质。</p>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>设 $x\textgreater 0\in R$ ，$y\in R$，则存在整数 $n$，使得 $nx\textgreater y$。</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>设 $x\gt 0\in R$ ，$y\in R$，则存在整数 $n$，使得 $nx\gt y$。</p>
 </div>
 <p>使用反证法。</p>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>假设对于任意整数 $n$，都有 $nx\leq y$，则 $y$ 是集合 $E={nx}$ 的一个上界。由 $R$ 的最小上界性，$b=\sup E$ 存在。<br>
-因为 $b-x\textless b$ 不是 $E$ 的上界，所以存在 $mx\in E \ \textgreater b-x$，所以有 $(m+1)x\textgreater b$，这产生了矛盾。<br>
-根据阿基米德性我们可以知道有理数在实数集中是“稠密”的，即对于任意 $x\textless y$，都存在 $q\in Q$ 使得 $x\textless q\textless y$ 。我们只证明 $x\textgreater 0$ 的情况。</p>
+因为 $b-x\lt b$ 不是 $E$ 的上界，所以存在 $mx\in E \ \gt b-x$，所以有 $(m+1)x\gt b$，这产生了矛盾。<br>
+根据阿基米德性我们可以知道有理数在实数集中是“稠密”的，即对于任意 $x\lt y$，都存在 $q\in Q$ 使得 $x\lt q\lt y$ 。我们只证明 $x\gt 0$ 的情况。</p>
 </div>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>要得到这样的 $q$，我们先设 $q=m/n$ 是分数形式，则 $x\textless m/n\textless y$ 等价于 $nx\textless m\textless ny$，这其实是说 $nx,\ ny$ 中间要放得下一个整数 $m$，所以这等价于 $ny-nx\textgreater 1$ 即 $n(y-x)\textgreater 1$。<br>
-我们知道 $y-x\textgreater 0$，根据阿基米德性存在这样的整数 $n$。</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>要得到这样的 $q$，我们先设 $q=m/n$ 是分数形式，则 $x\lt m/n\lt y$ 等价于 $nx\lt m\lt ny$，这其实是说 $nx,\ ny$ 中间要放得下一个整数 $m$，所以这等价于 $ny-nx\gt 1$ 即 $n(y-x)\gt 1$。<br>
+我们知道 $y-x\gt 0$，根据阿基米德性存在这样的整数 $n$。</p>
 </div>
 <p>回过头来我们取任何一个集合 $T$，它是一个有序域，且有着最小上界性（确界原理）。我们看一下它具备怎样的结构。</p>
-<p>首先在任何有序域中，我们可以根据定义中那几条性质（公理）出发，得到 $1=1^2\textgreater 0$。所以规定 $n=1+1+...+1$ (一共有自然数 $n$ 个)，我们有 $(n+1)=n+1\textgreater n$ ，所以集合 ${n\in T}$ 是无限集（以上的 n 还有 1 都是指 T 中的元素），更准确的说它和自然数集是同构的。<br>
+<p>首先在任何有序域中，我们可以根据定义中那几条性质（公理）出发，得到 $1=1^2\gt 0$。所以规定 $n=1+1+...+1$ (一共有自然数 $n$ 个)，我们有 $(n+1)=n+1\gt n$ ，所以集合 ${n\in T}$ 是无限集（以上的 n 还有 1 都是指 T 中的元素），更准确的说它和自然数集是同构的。<br>
 更进一步我们通过做“除法”（乘法）可以得到集合 ${\frac{m}{n}\in T}$ ，这和我们的有理数集也是同构的，我们就叫它 $Q_T$ 吧。</p>
 <p>同构的意思就是存在双射使这两个集合一一对应，并且这个一一对应保持了集合上面的序结构和运算结果。细节我们可以先不用管，大概意思知道就行了。</p>
 <p>这一小节中的证明是可以迁移到 $T$ 上的，所以 $Q_T$ 也在 $T$ 中是稠密的，等我们学了后面的“极限”的概念，我们就可以用 $Q$ 中的序列来逼近 $R$ 中元素 $r$，同理用 $Q_T$ 中对应的序列去逼近 $T$ 中元素 $t$，这样就把 $r,\ t$ 对应起来了。我们就能说明 $R$ 和 $T$ 也是同构的。</p>
 <p>这可以看成是度量空间的完备化。</p>
 <h3>一些运算的定义</h3>
 <p>我们之前举了一个例子<br>
-$$E=\lbrace x\in Q\mid x\textgreater 0\ {且}\ x^2\textless 2 \rbrace$$<br>
+$$E=\lbrace x\in Q\mid x\gt 0\ {且}\ x^2\lt 2 \rbrace$$<br>
 说明了 $Q$ 上没有确界原理。</p>
 <p>我们知道这个集合在实数集的上确界是“根号二”，但是我们没有定义根号这个运算（我们有次方运算，这只需要用乘法归纳定义），我们不是靠“开平方”算出来了“根号二”这个数（这个数我们不知道是什么东西，我们不知道存不存在一个数的平方结果是2），我们是根据确界原理说明了 $E$ 的上确界存在（在 $R$ 上）。</p>
 <p>所以我们是用确界原理来定义根号，指数函数这些运算，不要搞反了。</p>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>对于 $x\in R&amp;gt;0$和正整数 $n$，定义 $$ x^{\frac{1}{n}}=\sup {a\in R_{\textgreater 0} \mid a^n\textless x}$$<br>
-我们发现 $x^{\frac{1}{n}}$（简记作 $y$）满足 $y^n=x$。</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>对于 $x\in R\gt 0$和正整数 $n$，定义</p>
 </div>
-<p>我们知道这个 $y$ 是存在的：因为 $(x+1)^n\textgreater (x+1)\textgreater x$ ，所以 $E={a\in R_{\textgreater 0} \mid a^n\textless x}$有上界。<br>
-又如果 $x\textgreater 1$，那么 $1^n\textless x$，所以 $1\in E$ ；如果 $x\textless 1$ ，那么 $x^n\textless x$ ，所以 $x\in E$ 。所以 $E$ 是非空的。综上根据确界原理 $y$ 存在。</p>
-<p>我们可以用前文类似的方法说明 $y^n=x$ ：假设 $y^n\textless x$ ，我们希望找到一个 $b\textgreater y$ 且 $b\in E$ ，这样就引出矛盾。同样我们设 $b=y+a,\ a\textgreater 0$，有<br>
+<p>$$ x^{\frac{1}{n}}=\sup \lbrace a\in R_{\gt 0} \mid a^n\lt x\rbrace$$</p>
+<p>我们发现 $x^{\frac{1}{n}}$（简记作 $y$）满足 $y^n=x$。</p>
+<p>我们知道这个 $y$ 是存在的：因为 $(x+1)^n\gt (x+1)\gt x$ ，所以 $E=\lbrace a\in R_{\gt 0} \mid a^n\lt x\rbrace$有上界。<br>
+又如果 $x\gt 1$，那么 $1^n\lt x$，所以 $1\in E$ ；如果 $x\lt 1$ ，那么 $x^n\lt x$ ，所以 $x\in E$ 。所以 $E$ 是非空的。综上根据确界原理 $y$ 存在。</p>
+<p>我们可以用前文类似的方法说明 $y^n=x$ ：假设 $y^n\lt x$ ，我们希望找到一个 $b\gt y$ 且 $b\in E$ ，这样就引出矛盾。同样我们设 $b=y+a,\ a\gt 0$，有<br>
 $$b^n=(y+a)^n=\sum_{0\leq k\leq n}C^k_n a^k y^{n-k}$$<br>
-我们同样让 $a\textless y$，就有<br>
-$$\sum_{0\leq k\leq n}C^k_n a^k y^{n-k}\textless y^n+a(\sum_{1\leq k\leq n}C^k_n  y^{n-1})$$<br>
+我们同样让 $a\lt y$，就有<br>
+$$\sum_{0\leq k\leq n}C^k_n a^k y^{n-k}\lt y^n+a(\sum_{1\leq k\leq n}C^k_n  y^{n-1})$$<br>
 所以只需要<br>
-$$y^n+a(\sum_{1\leq k\leq n}C^k_n  y^{n-1})\textless x$$<br>
+$$y^n+a(\sum_{1\leq k\leq n}C^k_n  y^{n-1})\lt x$$<br>
 也就是<br>
-$$a\textless \frac{x-y^n}{\sum_{1\leq k\leq n}C^k_n  y^{n-1}}$$<br>
+$$a\lt \frac{x-y^n}{\sum_{1\leq k\leq n}C^k_n  y^{n-1}}$$<br>
 我们知道小于号右边的式子是大于0的，所以总能找到这样的正数 $a$，令 $b=y+a$ 即为所求。</p>
-<p>$y^n\textgreater x$ 的情形也是类似的。</p>
-<blockquote>
-<p>[!QUESTION]<br>
-我们怎么定义指数函数？并验证这些运算该有的性质，比如 $(xy)^{\frac{1}{n}}=(x)^{\frac{1}{n}}(y)^{\frac{1}{n}}$ 。</p>
-</blockquote>
+<p>$y^n\gt x$ 的情形也是类似的。</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>我们怎么定义指数函数？并验证这些运算该有的性质，比如 $(xy)^{\frac{1}{n}}=(x)^{\frac{1}{n}}(y)^{\frac{1}{n}}$ 。</p>
+</div>
 <p>更多内容，如复数，欧氏空间等，见《数学分析原理》。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
